@@ -4,7 +4,7 @@
     <head>
         <?php include_once("./Header.php"); ?>
         <?php include_once('./service/connection.php'); ?>
-        <?php include_once('./service/Profile_DB.php'); ?>
+        <?php include_once('./service/restaurant/select_all.php'); ?>
     </head>
     <body>
         <center><h1>PROFILE</h1></center>

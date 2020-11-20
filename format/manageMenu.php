@@ -4,7 +4,7 @@
     <head>
         <?php include_once("./Header.php"); ?>
         <?php include_once('./service/connection.php'); ?>
-        <?php include_once('./service/manageMenu_DB.php'); ?>
+        <?php include_once('./service/product/select_all.php'); ?>
     </head>
 
     <body>

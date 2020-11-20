@@ -3,6 +3,18 @@
 <html lang="en">
     <head>
         <?php include_once("./Header.php"); ?>
+        <?php include_once('./service/connection.php'); ?>
+        <?php
+            include_once('./service/restaurant/login.php');
+            if (isset($result) && !empty($result)) {
+                if ($result->num_rows == 0) {
+                    echo "<script> alert('USERNAME OR PASSWORD INVALID!!!');window.location.href='./Login.php';</script>";
+                } else {
+                    header("Location:./Home.php");
+                }
+            }
+            
+        ?>
         <link rel="stylesheet" href="./css/Login.css" />
     </head>
     <body>
@@ -17,7 +29,7 @@
                     </div>
 
                     <div class="d-flex justify-content-center form_container">
-                        <form method = "POST" action="./service/Login_DB.php">
+                        <form method = "POST" action="">
                             <div class="input-group mb-3">
                                 <div class="input-group-append">
                                     <span class="input-group-text"><i class="fas fa-user"></i></span>

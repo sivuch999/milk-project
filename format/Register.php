@@ -4,7 +4,7 @@
 <head>
     <?php include_once("./Header.php"); ?>
     <?php include_once('./service/connection.php'); ?>
-    <?php include_once('./service/Register_DB.php'); ?>
+    <?php include_once('./service/restaurant/register.php'); ?>
 </head>
     <body>
         <div class = "container">
@@ -55,7 +55,7 @@
                                 </div>
                                 <!--  -->
                                 <hr>
-                                <center><button type="submit" class="btn btn-lg btn-warning" name="register">REGISTER</button></center>
+                                <center><button type="submit" class="btn btn-lg btn-warning" name="submit">REGISTER</button></center>
                             </form>
                         </div>
                     </div>

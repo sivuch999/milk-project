@@ -4,7 +4,8 @@
   <head>
       <?php include_once("./Header.php"); ?>
       <?php include_once('./service/connection.php'); ?>
-      <?php include_once('./service/customer1_DB.php'); ?>
+      <?php include_once('./service/q/insert.php'); ?>
+      <?php include_once('./service/q/select_count.php'); ?>
       <LINK REL="SHORTCUT ICON" HREF="Q.png">
       <script src="./js/interval_time.js"></script>
   </head>

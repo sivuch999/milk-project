@@ -4,7 +4,7 @@
     <head>
         <?php include_once("./Header.php"); ?>
         <?php include_once('./service/connection.php'); ?>
-        <?php include_once('./service/putq_DB.php'); ?>
+        <?php include_once('./service/q/select_all.php'); ?>
         <script src="./js/interval_time.js"></script>
         <LINK REL="SHORTCUT ICON" HREF="Q.png">
     </head>

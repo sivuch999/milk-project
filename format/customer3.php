@@ -2,12 +2,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-            <?php include_once("./Header.php"); ?>
-            <?php include_once('./service/connection.php'); ?>
-            <?php include_once('./service/customer3_DB.php'); ?>
-            <script src="http://www.jacklmoore.com/colorbox/jquery.colorbox.js"></script>
-            <link rel="stylesheet" href="http://www.jacklmoore.com/colorbox/example1/colorbox.css" />
-            <script src="./js/customer_3.js"></script>
+        <?php include_once("./Header.php"); ?>
+        <?php include_once('./service/connection.php'); ?>
+        <?php include_once('./service/customer/select_by_line.php');
+            if (isset($isHasId) && !empty($isHasId)) {
+                print_r($isHasId);
+                if ($isHasId->num_rows > 0) {
+                    header("Location: customer4.php");
+                } 
+            }
+        ?>
+        <script src="http://www.jacklmoore.com/colorbox/jquery.colorbox.js"></script>
+        <link rel="stylesheet" href="http://www.jacklmoore.com/colorbox/example1/colorbox.css" />
+        <script src="./js/customer_3.js"></script>
     </head>
 
     <body>

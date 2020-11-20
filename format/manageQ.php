@@ -5,7 +5,7 @@
         <?php $rs = null; ?>
         <?php include_once("./Header.php"); ?>
         <?php include_once('./service/connection.php'); ?>
-        <?php include_once('./service/manageQ_DB.php'); ?>
+        <?php include_once('./service/q/select_search.php'); ?>
         <script src="./js/manageQ.js"></script>
     </head>
     <body>
