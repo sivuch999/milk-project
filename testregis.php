@@ -7,7 +7,7 @@
 
     <script type="text/javascript">
 
- <?php echo "eiei2"; ?>
+ <?php echo "eiei23"; ?>
 jQuery(document).ready( function ()
 {
  function updateClock()

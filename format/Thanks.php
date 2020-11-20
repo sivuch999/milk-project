@@ -44,7 +44,7 @@
     <div class="w-100 h-100">
         <h1 class="playful">
             ขอบคุณค่าาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาา
-            wowza
+            wowza eiei
         </h1>
     </div>
 </body>
