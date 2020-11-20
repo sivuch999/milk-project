@@ -5,10 +5,13 @@
         <?php include_once("./Header.php"); ?>
         <?php include_once('./service/connection.php'); ?>
         <?php include_once('./service/restaurant/login.php');
-            if (isset($result) && !empty($result)) {
+            if (isset($result)) {
                 if ($result->num_rows == 0) {
                     echo "<script> alert('USERNAME OR PASSWORD INVALID!!!');window.location.href='./Login.php';</script>";
                 } else {
+                    $row = mysqli_fetch_array($result);
+                    $_SESSION["login"] = true;
+                    $_SESSION["fullname"] = $row["fullname"];
                     header("Location:./Home.php");
                 }
             }

@@ -9,7 +9,7 @@
         <script src="./js/manageQ.js"></script>
     </head>
     <body>
-        <h1><center>ManageQueue</center> </h1>
+        <h1><center>ManageQueue</center></h1>
 
         <form name= "searchq" action="" method="post" align = "center">
             <label>ค้นหาคิว :</label>

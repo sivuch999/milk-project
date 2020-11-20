@@ -1,5 +1,12 @@
 <?php
-if ($basePath != "Welcome" && $basePath != "Login" && $basePath != "Register") {
+if (
+    $basePath != "Welcome" &&
+    $basePath != "Login" && 
+    $basePath != "Register" &&
+    $basePath != "customer1" &&
+    $basePath != "customer3" &&
+    $basePath != "customer4"
+) {
     if (!isset($_SESSION["login"])) {
         header("Location: Welcome.php");
     }
