@@ -44,11 +44,8 @@
     <div class="w-100 h-100">
         <h1 class="playful">
             ขอบคุณค่าาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาา
-            wowza
         </h1>
     </div>
 </body>
 
 </html>
-
-<div></div>
