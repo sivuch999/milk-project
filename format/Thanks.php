@@ -43,7 +43,7 @@
 <body>
     <div class="w-100 h-100">
         <h1 class="playful">
-            Thank you
+            ขอบคุณค่าาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาาา
         </h1>
     </div>
 </body>
