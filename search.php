@@ -6,6 +6,7 @@
 
     <body>
         <?php
+            echo "eiei";
             include_once('connection.php');
             
             if(isset($_POST['search'])){
