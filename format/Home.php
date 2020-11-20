@@ -6,6 +6,12 @@
         <script src="./js/time.js"></script>   
     </head>
     <body>
+
+
+        <?php
+            echo"pela";
+        ?>
+
         <nav class="navbar navbar-expand-lg bg-warning">
             <a class="navbar-brand" href="#">QUEUEs</a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
