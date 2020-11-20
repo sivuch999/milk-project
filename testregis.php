@@ -7,7 +7,7 @@
 
     <script type="text/javascript">
 
- 
+ <?php echo "eiei2"; ?>
 jQuery(document).ready( function ()
 {
  function updateClock()
@@ -43,6 +43,8 @@ jQuery(document).ready( function ()
 </head>
 <body>
 <div class="demoarea" id="setinterval2"><span id="jq4uclock"></span></div>
+
+
 
 </body>
 </html>
