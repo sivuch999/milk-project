@@ -1,3 +1,12 @@
+<?php
+if ($basePath != "Welcome" && $basePath != "Login" && $basePath != "Register") {
+    if (!isset($_SESSION["login"])) {
+        header("Location: Welcome.php");
+    }
+}
+
+?>
+
 <title><?=$title;?></title>
 
 <!-- Required meta tags --> 

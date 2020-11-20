@@ -1,4 +1,4 @@
-<?php session_start(); $title = "Register"; ?>
+<?php session_start(); $title = "Register"; $basePath = basename(__FILE__, '.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

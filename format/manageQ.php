@@ -1,4 +1,4 @@
-<?php session_start(); $title = "ManageQueue"; ?>
+<?php session_start(); $title = "ManageQueue"; $basePath = basename(__FILE__, '.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>

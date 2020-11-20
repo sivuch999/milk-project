@@ -1,4 +1,4 @@
-<?php session_start(); $title = "Customer3"; ?>
+<?php session_start(); $title = "Customer3"; $basePath = basename(__FILE__, '.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -6,7 +6,6 @@
         <?php include_once('./service/connection.php'); ?>
         <?php include_once('./service/customer/select_by_line.php');
             if (isset($isHasId) && !empty($isHasId)) {
-                print_r($isHasId);
                 if ($isHasId->num_rows > 0) {
                     header("Location: customer4.php");
                 } 

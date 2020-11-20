@@ -1,4 +1,4 @@
-<?php session_start(); $title = "Confirm_Q"; ?>
+<?php session_start(); $title = "Confirm_Q"; $basePath = basename(__FILE__, '.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>

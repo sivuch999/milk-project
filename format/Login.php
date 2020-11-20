@@ -1,11 +1,10 @@
-<?php session_start(); $title = "Login"; ?>
+<?php session_start(); $title = "Login"; $basePath = basename(__FILE__, '.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <?php include_once("./Header.php"); ?>
         <?php include_once('./service/connection.php'); ?>
-        <?php
-            include_once('./service/restaurant/login.php');
+        <?php include_once('./service/restaurant/login.php');
             if (isset($result) && !empty($result)) {
                 if ($result->num_rows == 0) {
                     echo "<script> alert('USERNAME OR PASSWORD INVALID!!!');window.location.href='./Login.php';</script>";

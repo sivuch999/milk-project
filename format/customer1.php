@@ -1,4 +1,4 @@
-<?php session_start(); $title = "Customer1"; ?>
+<?php session_start(); $title = "Customer1"; $basePath = basename(__FILE__, '.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>

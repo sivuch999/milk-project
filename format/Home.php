@@ -1,4 +1,4 @@
-<?php session_start(); $title = "Home"; ?>
+<?php session_start(); $title = "Home"; $basePath = basename(__FILE__, '.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -40,7 +40,7 @@
                         <a class="dropdown-item" href="Profile.php">MANAGE</a>
                         <a class="dropdown-item" href="#">SETTING</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="Welcome.php">LOGOUT</a>
+                        <a class="dropdown-item" href="Logout.php">LOGOUT</a>
                     </div>
                 </ul>
             </div>  

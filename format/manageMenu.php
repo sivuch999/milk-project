@@ -1,4 +1,4 @@
-<?php session_start(); $title = "manageMenu"; ?>
+<?php session_start(); $title = "manageMenu"; $basePath = basename(__FILE__, '.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>

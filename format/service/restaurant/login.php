@@ -7,6 +7,8 @@
         WHERE username = '".$username."'
         AND password = '".$password."' ";
 
+        $_SESSION["login"] = true;
+
         $result = $conn->query($sql);
     }
 ?>
