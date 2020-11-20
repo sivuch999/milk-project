@@ -44,6 +44,8 @@ jQuery(document).ready( function ()
 <body>
 <div class="demoarea" id="setinterval2"><span id="jq4uclock"></span></div>
 
+
+
 </body>
 </html>
 <!-- Copyright 2011 jQuery4u.com -->

@@ -19,5 +19,10 @@
             </p>
             <button type="submit" class="btn btn-success">บันทึก</button>
         </form>
+
+        <?php
+            echo"mooooongaaa";
+        ?>
+
     </body>
 </html>
